@@ -1,0 +1,30 @@
+
+main {
+    width: 300mm;
+    height: 300mm;
+    background-color: green;
+    margin: 100px auto;
+
+
+.square {
+
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    width: 100px;
+}
+
+ @keyframes {
+   
+    animation-duration: infinite;
+    animation-timing-function: 5s;
+    animation-iteration-count: infinite;
+    animation-name: rotate;
+    transform:rotate(360deg)
+
+  }
+
+
+
+
+
