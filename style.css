@@ -1,28 +1,35 @@
 main {
-  width: 1200px;
-  height: 1200px;
-  background-color: green;
-  margin: 50px auto;
+    width: 1200px;
+    height: 1200px;
+    background-color: green;
+    margin: 50px auto;
 }
 
-.square img {
-  width: 400px;
-  height: 400px;
-  margin-left: 100px;
-  animation-duration: 7s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-name: square;
+.clock img {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
 }
 
-@keyframes square {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+.arrow img {
+    width: 20px;
+    height: 200px;
+    margin-left: 100px;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
 }
 
-transform-origin
+@keyframes arrow {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.arrow transform-origin: bottom;
+translate (-50%;
+100%)
