@@ -5,16 +5,26 @@ main {
     margin: 50px auto;
 }
 
-.clock img {
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 400px;
     height: 400px;
     margin-left: 100px;
+    background: url("image/watches.jpg");
+    background-size: cover;
 }
 
-.arrow img {
-    width: 20px;
+.arrow {
+    transform-origin: center 72%;
+    background-image: url("Image/arrow.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 22%;
+    margin-left: 5px;
+    width: 10px;
     height: 200px;
-    margin-left: 100px;
     animation-duration: 60s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -29,7 +39,3 @@ main {
         transform: rotate(360deg);
     }
 }
-
-.arrow transform-origin: bottom;
-translate (-50%;
-100%)
