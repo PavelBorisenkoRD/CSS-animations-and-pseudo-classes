@@ -3,17 +3,17 @@ body {
   color: violet;
 }
 
-
-click:hover {
-  transition: move-down;
+.click:hover {
+  transition: 0.5s linear;
+transform: translateY(25px);
   background-color: blue;
-box-shadow: 0 0 30px, 0,5?, rgba(black)
-opasity:rgba(black, 0,5) ???
-margin:auto;
-cursor:zoom-in (0,4,5); pointer;
+  box-shadow: 0 50px 50px 20px rgba(0, 0, 0, 0.7);
+  margin: auto;
+  cursor: pointer;
 }
 
-click {
+.click {
+  border-radius: 20px;
   width: 600px;
   height: 150px;
   background-color: green;
@@ -21,4 +21,3 @@ click {
   text-transform: uppercase;
   color: lightblue;
 }
-
